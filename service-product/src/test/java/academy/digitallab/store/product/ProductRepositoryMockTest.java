@@ -30,7 +30,6 @@ public class ProductRepositoryMockTest {
     productRepository.save(product01);
 
     List<Product> founds = productRepository.findByCategory(product01.getCategory());
-
         Assertions.assertThat(founds.size()).isEqualTo(3);
     }
 

@@ -9,8 +9,9 @@ public class ServiceProductApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(ServiceProductApplication.class, args);
+
 		System.out.println();
-		System.out.println("*******************> HELO WORLD!!! <*******************");
+		System.out.println("// --> HELO WORLD!!! <-- //");
 	}
 
 }
